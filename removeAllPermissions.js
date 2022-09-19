@@ -1,6 +1,8 @@
 const fs = require("fs");
 
-let sharedItemsWithPermissionIds = JSON.parse(fs.readFileSync("sharedItemsWithPermissionIds.json"));
+let sharedItemsWithPermissionIds = JSON.parse(
+  fs.readFileSync("sharedItemsWithPermissionIds.json")
+);
 
 let token = "<your graph token here>";
 
